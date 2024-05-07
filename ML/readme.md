@@ -1,41 +1,31 @@
-# ML Directory Overview
+# Machine Learning Directory Overview
 
-This directory contains various machine learning models and experiments as Jupyter Notebooks and Python scripts. Here's a breakdown of each subdirectory and its contents:
-
-## BGD (Batch Gradient Descent)
-- `p2.ipynb`: Implements a batch gradient descent algorithm, likely for a regression problem.
-- `prueba.ipynb`: A test notebook for experimenting with gradient descent techniques.
-
-## SVM (Support Vector Machines)
-- `SVM.ipynb`: A Jupyter notebook detailing the implementation and testing of a Support Vector Machine model.
+This directory contains several subdirectories, each focused on different machine learning techniques. Below is an overview of each subdirectory and the files within them.
 
 ## Bayes
-- `bayes.ipynb`: Notebook demonstrating Bayesian methods, possibly for classification or regression.
+- **bayes.ipynb**: Notebook demonstrating Bayesian methods.
+- **bayesClassifier.ipynb**: Notebook illustrating the use of Bayesian classifiers.
+- **bayesMulticlass.ipynb**: Notebook focused on multiclass classification using Bayesian methods.
 
-## KNN (K-Nearest Neighbors)
-- `knn.ipynb`: Illustrates the application of the K-Nearest Neighbors algorithm, commonly used in classification problems.
+## SVM (Support Vector Machines)
+- **SVM.ipynb**: Introduction to using SVMs for classification tasks.
+- **classifier.ipynb**: Notebook detailing a specific SVM classifier implementation.
 
-## p1
-- `6.py`: Python script associated with a PDF document (possibly a report or assignment).
-- `7.py`: Another Python script linked with a corresponding PDF.
-- `RL.py`: Python script for implementing Reinforcement Learning algorithms.
-- `paleteria.csv`: Data file used in the Python scripts.
+## dataLoad
+- **dataframe.py**: Python script for dataframe manipulation and preparation.
+- **dataset.py**: Python script for dataset operations, likely related to loading and handling data.
 
-## p2
-- `p2.py`: Python script for machine learning model validation methods.
-- `metodosDeValidacion.csv`: Dataset used in `p2.py` for method validation.
+## knn (k-Nearest Neighbors)
+- **knn.ipynb**: Notebook exploring the k-Nearest Neighbors algorithm for classification tasks.
 
-## p3
-- `p3.ipynb`: Jupyter Notebook for exploring advanced machine learning models.
-- `p3.py`: Accompanying Python script for `p3.ipynb`.
-- `mono.csv`, `multi.csv`, `ols.csv`: Datasets used within this project.
+## linearRegresion
+- **RL.ipynb**: Notebook explaining linear regression analysis.
+- **RL.py**: Python script with implementations of linear regression.
+- **RL_multiple.ipynb**: Notebook on multiple linear regression techniques.
+- **bostonDataset.ipynb**: Notebook analyzing the Boston housing dataset using regression.
+- **regression-techniques.py**: Python script covering various regression techniques.
 
-## p4
-- `p4.ipynb`, `p4_2.ipynb`: Series of notebooks focusing on Bayesian methods with practical examples.
-- `emails.csv`, `iris.csv`: Datasets utilized in Bayesian experiments.
+## validationMethods
+- **validationMethods.py**: Python script describing different validation methods used in machine learning.
 
-## p5
-- `p5.ipynb`: Notebook detailing machine learning techniques for medical data analysis.
-- `heart.csv`: Dataset used in `p5.ipynb` concerning heart disease.
-
-This README is designed to help navigate and understand the experiments and implementations within the ML directory.
+This directory provides a comprehensive suite of tools and notebooks for learning and implementing various machine learning algorithms. Each subdirectory is dedicated to a specific algorithm or set of techniques, providing both theoretical background and practical code examples.
