@@ -27,6 +27,21 @@ This directory contains several Jupyter notebooks dedicated to various aspects o
 
 Each notebook is equipped with detailed instructions and code comments to assist users in understanding and leveraging the methodologies for their specific needs.
 
+### DaVincis Directory Overview
+
+- **clasificador.ipynb**:
+  - **Overview**: Implements a binary classification system using the Multinomial Naive Bayes algorithm to distinguish between violent and non-violent text entries.
+  - **Functionality**: Includes data preprocessing from CSV files, text vectorization, model training, and performance evaluation using accuracy metrics and a confusion matrix.
+  - **Output**: The notebook outputs the accuracy of the model, a detailed classification report, and visualizes the model's performance through a confusion matrix.
+
+- **texto.ipynb**:
+  - **Overview**: Demonstrates text classification using various machine learning models including Support Vector Machines (SVM), Naive Bayes, and Logistic Regression.
+  - **Functionality**: Covers text preprocessing, feature extraction through vectorization, balancing the dataset, and evaluating models with F1-score and classification reports.
+  - **Key Features**: Focuses on different vectorization techniques, model evaluation metrics, and handling class imbalance in datasets.
+  - **Output**: Performance metrics for each model tested are provided, highlighting their effectiveness for text classification.
+
+These notebooks provide comprehensive tools for processing and analyzing text data with advanced machine learning techniques, suitable for applications such as content moderation or academic research in natural language processing.
+
 ## Usage
 
 To use these notebooks, ensure you have Jupyter installed and run each notebook in a Jupyter environment. Required libraries and dependencies are listed at the beginning of each notebook.
